@@ -1,0 +1,48 @@
+Goal:
+	1.Load Employees (From File)
+	2.Exit Program 
+----------------------------------------
+	1.Print Employee Information 
+	2.Enter Hours Worked 
+	3.Calculate Paychecks 
+	4.Exit Program
+
+
+This is what needs to be included in Employee.Java:
+
+->Employee ID (Integer)
+->First Name (String)
+->Last Name (String)
+->Hourly Rate (Double)
+
+
+Pharmacy Manager.Java will have:
+
+->Leadership (Boolean)
+also extends Employee.Java
+
+
+Staff Pharmacist includes:
+
+->Licensed (Boolean)
+also extends Employee.Java
+
+
+Senior Technician includes:
+
+->Service Award (Boolean)
+extends Employee.Java
+
+
+Staff Technician includes:
+
+->Degree (Boolean)
+extends Employee.Java
+
+
+These are the pay rates to be associed with each employee type:
+
+Pharmacy Manager ( ROLE ID=1): $50/hour
+Staff Pharmacist ( ROLE ID=2): $40/hour
+Staff Technician ( ROLE ID=3): $20/hour
+Senior Technician (ROLE ID=4): $25/hour
